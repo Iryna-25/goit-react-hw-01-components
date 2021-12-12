@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "//Iryna-25.github.io/goit-react-hw-01-components/static/css/main.54bb868d.chunk.css",
+    "main.js": "//Iryna-25.github.io/goit-react-hw-01-components/static/js/main.f87e4720.chunk.js",
+    "main.js.map": "//Iryna-25.github.io/goit-react-hw-01-components/static/js/main.f87e4720.chunk.js.map",
+    "runtime-main.js": "//Iryna-25.github.io/goit-react-hw-01-components/static/js/runtime-main.b1b0c8a0.js",
+    "runtime-main.js.map": "//Iryna-25.github.io/goit-react-hw-01-components/static/js/runtime-main.b1b0c8a0.js.map",
+    "static/js/2.2f32bfb0.chunk.js": "//Iryna-25.github.io/goit-react-hw-01-components/static/js/2.2f32bfb0.chunk.js",
+    "static/js/2.2f32bfb0.chunk.js.map": "//Iryna-25.github.io/goit-react-hw-01-components/static/js/2.2f32bfb0.chunk.js.map",
+    "index.html": "//Iryna-25.github.io/goit-react-hw-01-components/index.html",
+    "static/css/main.54bb868d.chunk.css.map": "//Iryna-25.github.io/goit-react-hw-01-components/static/css/main.54bb868d.chunk.css.map",
+    "static/js/2.2f32bfb0.chunk.js.LICENSE.txt": "//Iryna-25.github.io/goit-react-hw-01-components/static/js/2.2f32bfb0.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b1b0c8a0.js",
+    "static/js/2.2f32bfb0.chunk.js",
+    "static/css/main.54bb868d.chunk.css",
+    "static/js/main.f87e4720.chunk.js"
+  ]
+}
