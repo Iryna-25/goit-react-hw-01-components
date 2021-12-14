@@ -4,7 +4,7 @@ import Profile from './Components/social-profile/profile';
 
 
 // function App() {
-//   return <div className="App">TEST</div>;
+//   return <div className="App">TES</div>;
 // }
 
 const App = (props) => (
