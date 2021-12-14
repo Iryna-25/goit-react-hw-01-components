@@ -20,6 +20,6 @@ const App = (props) => (
       <FriendList friends={props.friends} />,
       <TransactionHistory items={props.transactions} /> */}
     </div>
-  );
+);
 
 export default App;
