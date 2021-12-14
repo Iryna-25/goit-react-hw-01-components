@@ -10,7 +10,7 @@ ReactDOM.render(
     user={user}
     />
   </React.StrictMode>,
-  document.getElementById('root'),
+  document.getElementById("root"),
 );
 
 // import data from "../src/Components/Statistics/data.json";
