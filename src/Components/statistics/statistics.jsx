@@ -1,24 +1,29 @@
 import React from 'react';
+import PropTypes from 'prop-types';
+import styles from './statistics.module.css';
+import Item from "./Item";
 
-<section class="statistics">
-  <h2 class="title">Upload stats</h2>
+const Statistics = ({ title, stats}) => (
+  <div>
+    <section className={styles.statistics}>
+    {title && <h2 className={styles.title}>{title}</h2>}
+      <ul className={styles.statlist}>
+        {stats.map((stat) => (
+            <Item
+            key={stat.id}
+            name={stat.label}
+            id={stat.id}
+            value={stat.percentage}
+          />
+        ))}
+      </ul>
+    </section>
+  </div>
+);
 
-  <ul class="stat-list">
-    <li class="item">
-      <span class="label">.docx</span>
-      <span class="percentage">4%</span>
-    </li>
-    <li class="item">
-      <span class="label">.mp3</span>
-      <span class="percentage">14%</span>
-    </li>
-    <li class="item">
-      <span class="label">.pdf</span>
-      <span class="percentage">41%</span>
-    </li>
-    <li class="item">
-      <span class="label">.mp4</span>
-      <span class="percentage">12%</span>
-    </li>
-  </ul>
-</section>
+Statistics.PropTypes = {
+  title: PropTypes.string,
+  stats: PropTypes.arrayOf(PropTypes.shape),
+};
+
+export default Statistics;
