@@ -3,14 +3,16 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
 import user from "../src/Components/social-profile/user.json"
+import data from "../src/Components/statistics/data.json"
 
 ReactDOM.render(
   <React.StrictMode>
     <App 
     user={user}
+    data={data}
     />
   </React.StrictMode>,
-  document.getElementById("root"),
+  document.getElementById("root")
 );
 
 // import data from "../src/Components/Statistics/data.json";
