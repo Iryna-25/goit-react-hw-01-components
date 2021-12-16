@@ -1,11 +1,10 @@
 // App.js
 import './App.css';
-import Profile from './Components/social-profile/profile';
+import Profile from './Components/SocialProfile/profile';
+import Statistics from './Components/statistics/statistics';
+import FriendList from './Components/FriendList/friendList';
+import TransactionHistory from './Components/TransactionHistory/transactionHistory';
 
-
-// function App() {
-//   return <div className="App">TES</div>;
-// }
 
 const App = (props) => (
     <div>
@@ -16,9 +15,9 @@ const App = (props) => (
         avatar={props.user.avatar}
         stats={props.user.stats}
       />
-      {/* <Statistics title={props.data.title} stats={props.data} />
+      <Statistics title={props.data.title} stats={props.data} />
       <FriendList friends={props.friends} />,
-      <TransactionHistory items={props.transactions} /> */}
+      <TransactionHistory items={props.transactions} />
     </div>
 );
 
