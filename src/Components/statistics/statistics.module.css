@@ -1,0 +1,20 @@
+.statlist {
+    display: flex;
+    justify-content: space-around;
+    padding: 0px;
+    background-color: plum;
+    border-radius: 7%;
+}
+
+.statistics {
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    padding: 20px;
+}
+
+.percentage {
+    text-align: center;
+    font-weight: 700;
+}

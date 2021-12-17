@@ -2,10 +2,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
-import user from "../src/Components/SocialProfile/user.json"
-import data from "../src/Components/statistics/data.json"
-import friends from "../src/Components/FriendList/friend.json"
-import transactions from "../src/Components/TransactionHistory/transactions.json"
+import user from "./components/SocialProfile/user.json"
+import data from "./components/Statistics/data.json"
+import friends from "./components/FriendList/friend.json"
+import transactions from "./components/TransactionHistory/transactions.json"
 
 ReactDOM.render(
   <React.StrictMode>
